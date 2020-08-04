@@ -18,6 +18,7 @@ from corona import (
     data_extract,
 )
 
+
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
@@ -149,16 +150,16 @@ class Ui_MainWindow(object):
         MainWindow.setWindowTitle(_translate("MainWindow", "Corona Virus Databook"))
         self.label.setText(_translate("MainWindow", "Corona Virus Databook"))
         self.label_2.setText(_translate("MainWindow", "v 1.0"))
-        self.groupBox.setTitle(_translate("MainWindow", "Live World Data"))
+        self.groupBox.setTitle(_translate("MainWindow", "World Data"))
         self.recvr_label.setText(_translate("MainWindow", "Recovered :"))
         self.cnfrm_label.setText(_translate("MainWindow", "Confirmed :"))
         self.death_label.setText(_translate("MainWindow", "Deaths :"))
-        self.date_label.setText(_translate("MainWindow", "Last Refreshed On :"))
-        self.groupBox_2.setTitle(_translate("MainWindow", "Live Data from India"))
+        self.date_label.setText(_translate("MainWindow", "Data Last Refreshed On :"))
+        self.groupBox_2.setTitle(_translate("MainWindow", "Data from India"))
         self.recvr_label_2.setText(_translate("MainWindow", "Recovered :"))
         self.cnfrm_label_2.setText(_translate("MainWindow", "Confirmed :"))
         self.death_label_2.setText(_translate("MainWindow", "Deaths :"))
-        self.date_label_2.setText(_translate("MainWindow", "Last Refreshed On :"))
+        self.date_label_2.setText(_translate("MainWindow", "Data Last Refreshed On :"))
         self.refreshbtn.setText(_translate("MainWindow", "Refresh Data"))
         self.groupBox_3.setTitle(_translate("MainWindow", "Other Countries"))
         self.label_4.setText(_translate("MainWindow", "Enter the Country Name"))
